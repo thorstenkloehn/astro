@@ -3,11 +3,21 @@
 @tailwind utilities;
 
 @layer base {
+    body {
+      @apply bg-gray-100;
+    }
     h1 {
       @apply text-6xl;
     }
     body {
-        @apply w-1/2;
+        @apply container mx-auto;
       }
+      nav {
+        @apply bg-gray-800 text-white;
+      }
+      nav ul {
+        @apply flex flex-row space-x-10;
+      }
+
   }
 

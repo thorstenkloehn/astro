@@ -1,5 +1,6 @@
 ---
-import '../global.css';
+import '../global.css'; 
+import Nav from './nav.astro';
 ---
 <html lang="de">
     <head>
@@ -10,10 +11,13 @@ import '../global.css';
    
         </head>
     </head>
- <body class="container mx-auto">
+ <body>
+  <h1>ahrensburg.city</h1>
+  <Nav />
       <main>
-   <h1>ahrensburg.city</h1>
+  
         <slot />
       
       </main>
     </body>
+</html>
